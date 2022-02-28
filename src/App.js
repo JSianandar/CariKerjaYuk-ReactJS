@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Landing from "./components/Landing";
-import Footer from "./components/Footer";
+import Navbar from "./components/Layout/Navbar";
+import Landing from "./pages/Landing/Landing";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   return (

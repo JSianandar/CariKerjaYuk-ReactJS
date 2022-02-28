@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ImageSlider from "./Slider/ImageSlider";
-import { SliderData } from "./Slider/SliderData";
+import ImageSlider from "../../components/Slider/ImageSlider";
+import { SliderData } from "../../components/Slider/SliderData";
 import "./Landing.css";
 
 const Landing = () => {
