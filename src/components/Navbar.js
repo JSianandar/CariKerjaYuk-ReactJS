@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar">
+      <nav className="navbar_main">
         <h1>
           <Link to="/">
             <i className="fas fa-solid fa-briefcase"></i> CariKerjaYuk
@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link>Login</Link>
           </li>
           <li>
-            <Link>Join</Link>
+            <Link>Join Us</Link>
           </li>
         </ul>
       </nav>
