@@ -31,6 +31,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="/aboutus">
+              <i className="fas fa-address-card"></i>{" "}
+              <span className="hide-sm">About Us</span>
+            </Link>
+          </li>
+          <li>
             <Link>Login</Link>
           </li>
           <li>
